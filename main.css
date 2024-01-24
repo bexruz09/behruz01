@@ -1,0 +1,64 @@
+body{
+    background-image: url("./photo1705921454.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.box{
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 70px;
+    height: 70px;
+     margin-left: 75px; 
+     margin-top: 92px; 
+   animation: 5s behruz infinite;
+   position: absolute;
+}
+@keyframes behruz{
+    0%{
+        top: 0px;
+        left: 0px;
+    }
+    10%{
+        top: 0;
+        left: 350px;
+    }
+    20%{
+        top: 370px;
+        left: 350px;
+    }
+    30%{
+        top: 350px;
+        left: 1180px;
+    }
+    40%{
+        top: 570px;
+        left: 1200px;
+    }
+    50%{
+        top: 570px;
+        left: 700px;
+     }
+    60%{
+        top: 500px;
+        left: 700px;
+    }
+    70%{
+        top: 500px;
+        left: 350px;
+    }
+    80%{
+        top: 350px;
+        left: 170px;
+    }
+    90%{
+        top: 370px;
+        left: 10px;
+    }
+    100%{
+        top: 0px;
+        left: 0px;
+    }
+ 
+ 
+}
